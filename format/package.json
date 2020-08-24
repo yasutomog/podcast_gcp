@@ -1,0 +1,10 @@
+{
+  "name": "format",
+  "version": "0.0.1",
+  "dependencies": {
+    "@google-cloud/storage": "^1.6.0",
+    "@google-cloud/pubsub": "^2.5.0",
+    "pretty-ms": "^7.0.0",
+    "@google-cloud/secret-manager": "^3.1.0"
+  }
+}
