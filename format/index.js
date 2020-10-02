@@ -39,7 +39,7 @@ exports.helloPubSub = async (message, context) => {
       contents = data[0],
       json = JSON.parse(contents);
 
-    let outputText = 'file start';
+    let outputText = '';
     json.results.forEach((result) => {
 
       const
